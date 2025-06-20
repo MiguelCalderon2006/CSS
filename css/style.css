@@ -1,11 +1,25 @@
-body {
-  font-size: 22px;
+html {
+  font-size: 26px;
+  border: 4px solid rgb(0, 0, 0);
 }
-
+h1 {
+  color: rgba(12, 37, 198, 0.936);
+}
 p {
-  color: purple;
+  color: rgb(0, 0, 0);
 }
 
-.gray {
-  color: gray;
+.a1 {
+  color: rgb(255, 0, 0);
+}
+.a2 {
+  color: rgb(0, 100, 47);
+}
+.a3 {
+  color: rgb(18, 127, 210);
+}
+
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
 }
