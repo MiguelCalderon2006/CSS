@@ -1,5 +1,23 @@
 /* https://coolors.co/palette/cad2c5-84a98c-52796f-354f52-2f3e46 */
 /* Clolor pallete used */
+
+.d1 {
+  border: solid 0.65rem #000000;
+  background-color: #0096c7;
+}
+span {
+  display: inline-block;
+  background-color: #000000;
+  padding: 4em;
+  padding-bottom: 4em;
+}
+.d2 {
+  border: solid 0.65rem #000000;
+  background-color: #0096c7;
+  margin: 1rem;
+  padding: 1rem;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
@@ -12,7 +30,6 @@ body {
 
 section {
   text-align: center;
-
   border: 6px solid #84a98c;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -56,11 +73,22 @@ section {
   font-weight: 800;
   list-style-position: inside;
 }
-
 a {
   color: aliceblue;
   text-decoration: inherit;
 }
+
+.list ol {
+  list-style-position: inside;
+  list-style-type: lower-alpha;
+  color: #84a98c;
+}
+.list ul {
+  list-style-position: inside;
+  color: #84a98c;
+  list-style-type: square;
+}
+
 h1 {
   text-align: center;
   color: aliceblue;
@@ -68,7 +96,7 @@ h1 {
 }
 h2 {
   color: aliceblue;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 h3 {
   color: aliceblue;
