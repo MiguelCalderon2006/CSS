@@ -1,9 +1,5 @@
 /* https://coolors.co/palette/cad2c5-84a98c-52796f-354f52-2f3e46 */
 /* Clolor pallete used */
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
@@ -13,12 +9,18 @@ body {
   padding-left: 2rem;
   font-size: 1.25rem;
 }
-nav {
-  margin-bottom: 4rem;
-}
+
 section {
   text-align: center;
 
+  border: 6px solid #84a98c;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 4rem;
+}
+
+.menu {
   border: 6px solid #84a98c;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -34,7 +36,22 @@ section {
   border: 6px solid #cad2c5;
 }
 
+.type {
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: justify;
+  text-indent: 2rem;
+  line-height: 2;
+  letter-spacing: 0.2rem;
+  word-spacing: 5rem;
+  font-weight: 800;
+  font-style: oblique;
+  font-family: "Roboto Flex";
+}
+
 h1 {
+  text-align: center;
   color: #cad2c5;
   font-size: 2.65rem;
 }
@@ -49,30 +66,15 @@ h3 {
 
 a {
   color: #cad2c5;
+  text-decoration: none;
 }
 
-a:hover {
+a:hover,
+h1:hover,
+h2:hover,
+h3:hover,
+.bmContainer:hover,
+.type:hover {
   color: #52796f;
+  border-color: #52796f;
 }
-
-/* h1 {
-  color: rgba(12, 37, 198, 0.936);
-}
-p {
-  color: rgb(0, 0, 0);
-}
-
-.a1 {
-  color: rgb(255, 0, 0);
-}
-.a2 {
-  color: rgb(0, 100, 47);
-}
-.a3 {
-  color: rgb(18, 127, 210);
-}
-
-.highlight {
-  text-transform: uppercase;
-  background-color: gold;
-} */

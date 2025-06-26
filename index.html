@@ -4,28 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" href="img/css.png" />
-    <style></style>
+
+    <link rel="icon" href="css.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <section>
+    <section id="top">
       <h1>Cascading Style Sheets</h1>
     </section>
-    <nav class="menuSection">
+    <nav class="menu">
       <h1>Menu</h1>
       <ul>
         <li>
           <h2><a href="#box">Box Model</a></h2>
         </li>
+        <li>
+          <h2><a href="#type">Typography</a></h2>
+        </li>
       </ul>
     </nav>
 
-    <section class="bmSection" id="box">
-      <h1 class="">CSS Box Model</h1>
+    <section id="box">
+      <h1>Box Model</h1>
       <div class="bmContainer">Content</div>
       <div class="bmContainer">Content</div>
       <div class="bmContainer">Content</div>
     </section>
+
+    <section id="type">
+      <h1>Typography</h1>
+      <div class="type">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab laboriosam
+        accusantium reiciendis. Quisquam libero eius rem consequuntur beatae
+        debitis facilis culpa cum impedit labore, maxime ex deserunt laudantium
+        alias nisi!
+      </div>
+    </section>
+
+    <div style="height: 2000px"></div>
   </body>
 </html>
