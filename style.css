@@ -2,31 +2,22 @@
 /* Clolor pallete used */
 
 .d1 {
-  border: solid 0.65rem #ef476f;
   background-color: #0096c7;
+  margin-bottom: 2rem;
 }
 .inline {
   display: inline-block;
   background-color: #073b4c;
   border: solid 0.65rem #ef476f;
   padding: 4rem;
-  padding-bottom: 4rem;
-  margin: 1rem;
+  margin-inline: 3rem;
 }
 
 .block {
   background-color: #073b4c;
   border: solid 0.65rem #ef476f;
   padding: 4rem;
-  padding-bottom: 4rem;
   margin: 1rem;
-}
-
-.d2 {
-  border: solid 0.65rem #ef476f;
-  background-color: #0096c7;
-  margin: 1rem;
-  padding: 1rem;
 }
 
 body {
@@ -56,8 +47,13 @@ section {
   padding-bottom: 1rem;
   margin-bottom: 4rem;
 }
-.bm {
-  font-weight: 800;
+
+.margin:hover .bmContainer {
+  border-color: #06d6a0;
+}
+.margin {
+  margin: 2rem;
+  border-color: #06d6a0;
 }
 .bmContainer {
   padding: 1.5rem;
@@ -65,9 +61,11 @@ section {
   text-align: center;
   font-weight: 800;
   border: 13px solid aliceblue;
+  margin: 3rem;
 }
 
 .type {
+  background-color: #073b4c;
   font-size: 1.5rem;
   text-decoration: none;
   text-transform: uppercase;
@@ -79,6 +77,8 @@ section {
   font-weight: 800;
   font-style: oblique;
   font-family: "Roboto Flex";
+  margin: 3rem 3rem 2rem 3rem;
+  padding: 2rem;
 }
 
 .links {
@@ -86,6 +86,7 @@ section {
   font-size: 1.5rem;
   font-weight: 800;
   list-style-position: inside;
+  margin-bottom: 2rem;
 }
 a {
   color: aliceblue;
@@ -116,9 +117,8 @@ h3 {
   color: aliceblue;
   font-size: 1.25rem;
 }
-.menu:hover,
-ul:hover a,
-section:hover,
+
+ul:hover,
 ol:hover,
 div:hover,
 a:hover,
@@ -126,7 +126,21 @@ h1:hover,
 h2:hover,
 h3:hover,
 .bmContainer:hover,
-.type:hover {
+.type:hover,
+.d1:hover .block,
+.d1:hover .inline {
   color: #06d6a0;
   border-color: #06d6a0;
+}
+
+section:hover,
+section:hover h1,
+.menu:hover {
+  border-color: #06d6a0;
+}
+
+ul:hover a,
+.menu:hover h1,
+section:hover h1 {
+  color: #06d6a0;
 }

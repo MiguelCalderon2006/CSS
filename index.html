@@ -39,11 +39,18 @@
       </ul>
     </nav>
 
-    <section id="box">
+    <section id="box" class="bm">
       <h1>Box Model</h1>
-      <div class="bmContainer">Content</div>
-      <div class="bmContainer">Content</div>
-      <div class="bmContainer">Content</div>
+      <div class="margin">
+        Margin
+        <div class="bmContainer">
+          Border
+          <div class="bmContainer">
+            Padding
+            <div class="bmContainer">Content</div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="type">
@@ -87,10 +94,12 @@
 
     <section class="layout" id="layout">
       <h1>Layout</h1>
-      <div class="d1">Block <span>Inline-Block</span></div>
-      <div class="d2">Block</div>
-    </section>
+      <div class="d1">
+        <span class="block">Block</span>
+        <span class="inline">Inline-Block</span>
+      </div>
 
-    <div style="height: 3000px"></div>
+      <div class="block">Block</div>
+    </section>
   </body>
 </html>
