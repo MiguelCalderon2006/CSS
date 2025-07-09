@@ -1,6 +1,32 @@
 /* https://coolors.co/palette/cad2c5-84a98c-52796f-354f52-2f3e46 */
 /* Clolor pallete used */
 
+.fsection {
+  display: flow-root;
+}
+.float {
+  background-color: #ef476f;
+  width: 20rem;
+  height: 20rem;
+  float: left;
+  margin: 1rem;
+  line-height: 20rem;
+  font-size: 2rem;
+  padding: 0rem;
+  clear: both;
+}
+.float2 {
+  background-color: #ef476f;
+  width: 20rem;
+  height: 20rem;
+  float: right;
+  margin: 1rem;
+  margin-top: 10rem;
+  line-height: 20rem;
+  font-size: 2rem;
+  padding: 0rem;
+}
+
 .d1 {
   background-color: #0096c7;
   margin-bottom: 2rem;
@@ -16,6 +42,13 @@
 .block {
   background-color: #073b4c;
   border: solid 0.65rem #ef476f;
+  padding: 4rem;
+  margin: 1rem;
+}
+
+div {
+  border: solid 0.65rem #ef476f;
+  background-color: #073b4c;
   padding: 4rem;
   margin: 1rem;
 }
@@ -48,13 +81,10 @@ section {
   margin-bottom: 4rem;
 }
 
-.margin:hover .bmContainer {
+/* .margin:hover .bmContainer {
   border-color: #06d6a0;
-}
-.margin {
-  margin: 2rem;
-  border-color: #06d6a0;
-}
+} */
+
 .bmContainer {
   padding: 1.5rem;
   margin: 2rem;
@@ -118,7 +148,7 @@ h3 {
   font-size: 1.25rem;
 }
 
-ul:hover,
+/* li:hover,
 ol:hover,
 div:hover,
 a:hover,
@@ -131,16 +161,15 @@ h3:hover,
 .d1:hover .inline {
   color: #06d6a0;
   border-color: #06d6a0;
-}
+} */
 
-section:hover,
+/* section:hover,
 section:hover h1,
 .menu:hover {
   border-color: #06d6a0;
 }
 
-ul:hover a,
 .menu:hover h1,
 section:hover h1 {
   color: #06d6a0;
-}
+} */
