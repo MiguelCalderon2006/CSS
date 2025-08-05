@@ -1,6 +1,16 @@
 /* https://coolors.co/palette/cad2c5-84a98c-52796f-354f52-2f3e46 */
 /* Clolor pallete used */
 
+.col-div {
+  padding: 1.5rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.columns {
+  columns: 3 7rem;
+  column-gap: 3rem;
+  column-rule: 3px solid #118ab2;
+}
 .fsection {
   display: flow-root;
 }
@@ -46,7 +56,7 @@
 }
 
 div {
-  border: solid 0.65rem #ef476f;
+  border: solid 0.6rem #ef476f;
   background-color: #073b4c;
   padding: 4rem;
   margin: 1rem;
