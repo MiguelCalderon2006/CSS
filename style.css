@@ -1,6 +1,29 @@
 /* https://coolors.co/palette/cad2c5-84a98c-52796f-354f52-2f3e46 */
 /* Clolor pallete used */
 
+.outer-container {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.relative {
+  position: relative;
+
+  top: -4rem;
+  left: 15rem;
+}
+.fixed {
+  /* position: fixed; */
+  top: 0rem;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+}
 .col-div {
   padding: 1.5rem;
   margin: 0;
@@ -88,6 +111,10 @@ section {
   padding-right: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 4rem;
+  background-color: #073b4c;
+}
+.menu li {
+  list-style-type: none;
 }
 
 /* .margin:hover .bmContainer {
