@@ -48,11 +48,12 @@
   padding: 1.5rem;
   margin: 0;
   margin-bottom: 1rem;
+
 }
 .columns {
   columns: 3 7rem;
   column-gap: 3rem;
-  column-rule: 3px solid #118ab2;
+  column-rule: 10px solid #118ab2;
 }
 .fsection {
   display: flow-root;
@@ -63,7 +64,9 @@
   height: 20rem;
   float: left;
   margin: 1rem;
-  line-height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 2rem;
   padding: 0rem;
 }
