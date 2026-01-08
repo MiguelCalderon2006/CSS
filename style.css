@@ -1,6 +1,39 @@
 /* https://coolors.co/palette/cad2c5-84a98c-52796f-354f52-2f3e46 */
 /* Clolor pallete used */
+.grid-container{
+  padding: 0rem;
+  display: grid;
+  grid-template: repeat(4,10rem)/repeat(4,1fr) ;
 
+}
+.grid-item-1
+{
+  margin: 0rem;
+  grid-area: 2/1/5/4;
+
+
+}
+.grid-item-2
+{
+    margin: 0rem;
+    grid-area: 1/1/1/4;
+
+
+}
+.grid-item-3
+{
+  margin: 0rem;
+  grid-area: 1/4/6/4;
+
+}
+
+
+.grid-item{
+  padding: 2rem;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .box {
   display: flex;
   justify-content: center;
@@ -17,8 +50,7 @@
   align-items: center;
   flex-flow: row wrap;
   align-content: space-evenly;
-  gap: 3rem;
-  height: 50rem;
+  gap: 2rem;
 }
 
 .outer-container {
@@ -104,8 +136,9 @@
 div {
   border: solid 0.6rem #ef476f;
   background-color: #073b4c;
-  padding: 4rem;
-  margin: 1rem;
+  padding: 3rem;
+  margin: 2rem;
+  
 }
 
 body {
@@ -122,9 +155,9 @@ section {
   font-weight: 800;
   text-align: center;
   border: 6px solid #ef476f;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 2rem;
   margin-bottom: 4rem;
 }
 
