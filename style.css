@@ -3,7 +3,7 @@
 .grid-container{
   padding: 0rem;
   display: grid;
-  grid-template: repeat(4,10rem)/repeat(4,1fr) ;
+  grid-template: repeat(minmax(auto-fit, 4))/repeat(4,1fr) ;
 
 }
 .grid-item-1
