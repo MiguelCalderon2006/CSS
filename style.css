@@ -1,5 +1,6 @@
 /* https://coolors.co/palette/cad2c5-84a98c-52796f-354f52-2f3e46 */
 /* Clolor pallete used */
+
 .grid-container{
   padding: 0rem;
   display: grid;
@@ -8,21 +9,21 @@
 }
 .grid-item-1
 {
-  margin: 0rem;
+  margin: .5rem;
   grid-area: 2/1/5/4;
 
 
 }
 .grid-item-2
 {
-    margin: 0rem;
+    margin: 0.5rem;
     grid-area: 1/1/1/4;
 
 
 }
 .grid-item-3
 {
-  margin: 0rem;
+  margin: .5rem;
   grid-area: 1/4/6/4;
 
 }
@@ -63,10 +64,10 @@
   left: 0;
 }
 .relative {
-  position: relative;
+  /* position: relative;
 
   top: -4rem;
-  left: 15rem;
+  left: 15rem; */
 }
 .fixed {
   /* position: fixed; */
@@ -92,8 +93,8 @@
 }
 .float {
   background-color: #ef476f;
-  width: 20rem;
-  height: 20rem;
+  width: auto;
+  height: auto;
   float: left;
   margin: 1rem;
   display: flex;
@@ -104,8 +105,8 @@
 }
 .float2 {
   background-color: #ef476f;
-  width: 20rem;
-  height: 20rem;
+  width: auto;
+  height: auto;
   float: right;
   margin: 1rem;
   margin-top: 10rem;
@@ -133,33 +134,7 @@
   margin: 1rem;
 }
 
-div {
-  border: solid 0.6rem #ef476f;
-  background-color: #073b4c;
-  padding: 3rem;
-  margin: 2rem;
-  
-}
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.5;
-  background: #118ab2;
-  color: aliceblue;
-  padding-right: 2rem;
-  padding-left: 2rem;
-  font-size: 1.25rem;
-}
-
-section {
-  font-weight: 800;
-  text-align: center;
-  border: 6px solid #ef476f;
-  padding-left: 10rem;
-  padding-right: 10rem;
-  padding-bottom: 2rem;
-  margin-bottom: 4rem;
-}
 
 .menu {
   border: 6px solid #ef476f;
@@ -239,6 +214,49 @@ h3 {
   color: aliceblue;
   font-size: 1.25rem;
 }
+div {
+  border: solid 0.6rem #ef476f;
+  background-color: #073b4c;
+  padding: 3rem;
+  margin: 2rem;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background: #118ab2;
+  color: aliceblue;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  font-size: 1.25rem;
+}
+
+section {
+  font-weight: 800;
+  text-align: center;
+  border: 6px solid #ef476f;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 2rem;
+  margin-bottom: 4rem;
+  align-self: center;
+}
+
+@media (width <= 930px) { 
+  section{
+    
+    padding: 1rem;
+    margin: 1rem; 
+  }
+ }
+@media (width <= 650px) { 
+
+  div{
+    
+    padding: 1rem;
+    margin: 1rem; 
+  }
+ }
 
 /* li:hover,
 ol:hover,
