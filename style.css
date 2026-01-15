@@ -1,6 +1,7 @@
-/* https://coolors.co/palette/cad2c5-84a98c-52796f-354f52-2f3e46 */
-/* Clolor pallete used */
 
+:root{
+  --nred:#ef476f;
+}
 .grid-container{
   padding: 0rem;
   display: grid;
@@ -92,7 +93,7 @@
   display: flow-root;
 }
 .float {
-  background-color: #ef476f;
+  background-color: var(--nred);
   width: auto;
   height: auto;
   float: left;
@@ -104,7 +105,7 @@
   padding: 0rem;
 }
 .float2 {
-  background-color: #ef476f;
+  background-color: var(--nred);
   width: auto;
   height: auto;
   float: right;
@@ -122,14 +123,14 @@
 .inline {
   display: inline-block;
   background-color: #073b4c;
-  border: solid 0.65rem #ef476f;
+  border: solid 0.65rem var(--nred);
   padding: 4rem;
   margin-inline: 3rem;
 }
 
 .block {
   background-color: #073b4c;
-  border: solid 0.65rem #ef476f;
+  border: solid 0.65rem var(--nred);
   padding: 4rem;
   margin: 1rem;
 }
@@ -137,7 +138,7 @@
 
 
 .menu {
-  border: 6px solid #ef476f;
+  border: 6px solid var(--nred);
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -215,10 +216,10 @@ h3 {
   font-size: 1.25rem;
 }
 div {
-  border: solid 0.6rem #ef476f;
+  border: solid 0.6rem var(--nred);
   background-color: #073b4c;
-  padding: 3rem;
-  margin: 2rem;
+  padding: clamp(1rem, 3vw, 3rem);
+  margin: clamp(1rem, 3vw, 2rem);
 }
 
 body {
@@ -234,15 +235,13 @@ body {
 section {
   font-weight: 800;
   text-align: center;
-  border: 6px solid #ef476f;
-  padding-left: 10rem;
-  padding-right: 10rem;
-  padding-bottom: 2rem;
-  margin-bottom: 4rem;
+  border: 6px solid var(--nred);
+  padding: clamp(1rem, 4vw, 10rem);
+  margin-bottom: clamp(1rem, 3vw, 4rem);
   align-self: center;
 }
 
-@media (width <= 930px) { 
+/* @media (width <= 930px) { 
   section{
     
     padding: 1rem;
@@ -256,7 +255,7 @@ section {
     padding: 1rem;
     margin: 1rem; 
   }
- }
+ } */
 
 /* li:hover,
 ol:hover,
