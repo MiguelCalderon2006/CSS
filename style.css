@@ -1,7 +1,35 @@
 
+
+.animation-container .animation-item{
+  animation: 3s;
+  animation-name:spin;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-play-state:running;
+}
+
+
+@keyframes spin{
+  0%{
+  }
+  50%{
+    scale:1.5;
+    transform: rotate(0);
+  
+  }
+  100%{
+    transform: rotate(360deg);
+    scale:1;
+  }
+}
+
+
 :root{
   --nred:#ef476f;
 }
+
+
 .grid-container{
   padding: 0rem;
   display: grid;
